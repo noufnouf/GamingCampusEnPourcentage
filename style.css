@@ -1,0 +1,312 @@
+@font-face {
+    font-family:Monserat;
+    src: url(asset/font/Montserrat-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    ovherflow-x: hidden; /*c'est pour supprimer tout ce qui est au surplus sur l'axe des x*/
+    font-family:Monserat ;
+    /* background: rgb(78, 77, 77); */
+}
+ 
+/*===========================================================body */
+/* ==============================================partie1-barre-de-navigation */
+.partie1-barre-de-navigation{
+    height: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partie1-barre-de-navigation ul{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.partie1-barre-de-navigation ul li{
+    font-weight:600;
+    position: relative;
+    transition: 0.3s;
+}
+.partie1-barre-de-navigation ul li a{
+    transition: 0.3s;
+}
+.partie1-barre-de-navigation ul li button{
+    color: black;
+    padding: 5px 10px;
+    transform: translateY(-5px);
+    border-radius: 20px;
+    font-size: 0.8rem;
+    transition: 0.3s;
+}
+/* =============================================partie2 */
+.partie2{
+    background: url(asset/img/bg.jpg) center/cover no-repeat fixed;
+    height:700px;
+    object-fit: fill;
+}
+#contenaire1-partie2{
+    width: 100%;
+    height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+line-height: 3;
+}
+#contenaire1-partie2 ul{
+display: flex;
+color: rgb(180, 180, 238);
+} 
+#contenaire1-partie2 ul li{
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 2rem;
+}
+#contenaire1-partie2 button{
+    padding: 10px 50px;
+    font-size: 1.3rem;
+    letter-spacing: 5px;
+    border: 1px solid white;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* =============================partie3 */
+.partie3{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenairepartie3{
+    width: 70%;
+    text-align: center;
+}
+#contenairepartie3 p{
+    font-weight: bold;
+font-size: 1.3rem
+}
+/* ================================partie4 */
+.partie4{
+    background: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#contenaire-partie4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 65%;
+}
+#contenaire-partie4 ul{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    margin: 0 10px;
+    height:320px ;
+}
+#contenaire-partie4 h3{
+    font-weight: 400;
+}
+#contenaire-partie4 li{
+    font-size:Monserat;
+    width:300px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+#contenaire-partie4 button{
+border: 1px solid white;
+padding: 10px;
+}
+/* ===========================partie5 */
+.partie5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 800px;
+    
+    
+}
+#partie5-contenaire1{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width:75%;
+    height: 100px;
+    
+}
+#partie5-contenaire1-1{
+    margin-left: 15%;
+}
+#partie5-contenaire1-2 button{
+    border: 1px solid black;
+    color: black;
+    padding: 10px ;
+    letter-spacing: 2px;
+}
+#partie5-contenaire2{
+    display: flex;
+    justify-content: center;
+}
+#partie5-contenaire2-les-listes{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+#partie5-contenaire2-liste1{
+    position: relative;
+   width: 20%;
+   font-family: Monserat;
+   height: 600px;
+    }
+    #partie5-contenaire2-liste1 li{
+        margin-top: 10px;
+    }
+#partie5-contenaire2-liste1 img{
+   width: 100%; 
+   box-shadow: 0 0 7px 0 black;
+}
+#partie5-contenaire2-liste1 p{
+    line-height: 1.5;
+    font-weight: 100;
+}
+#partie5-contenaire2-liste1 a{
+    position: absolute;
+    bottom: 0;
+    transition: 0.3s;
+    color: purple;
+}
+/* =====================partie6 */
+
+.partie6{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenaire-partie6{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 300px;
+}
+#partie6-les-listes{
+    display: flex;
+}
+#partie6-les-listes ul{
+    margin-left: 70px;
+}
+#partie6-les-listes li{
+    transition: 0.3s;
+    width: 200px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 0.8rem
+}
+#partie6-les-listes ul li a{
+    transition: 0.3s;
+} 
+#partie6-les-listes p{
+    line-height: 1.6;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+#derniereliste-partie6 ul:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#derniereliste-partie6 img{
+margin-left: 5px;
+transition: 0.3s;
+}
+.partie6::after{
+    content: "";
+    position: absolute;
+    background: rgb(203, 202, 202);
+    width:80%;
+    height: 1px;
+    bottom: 20px;
+}
+
+/* ========================partie7 */
+.partie7{
+    margin-top: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenaire-partie7{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 30% 70%;
+    width: 90%;
+}
+#contenaire-partie7 img{
+    margin-left: 20px;
+    width: 90px;
+    max-width: 100px;
+    min-width: 10px;
+}
+/* =============================partie8 */
+.partie8{
+    margin-top:20px ;
+   height: 100px; 
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#logo-sponsor{
+    min-width: 100%;
+}
+#logo-sponsor ul{
+    max-width: 10%;
+    min-width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+#logo-sponsor img{
+    transition: 0.3s;
+}
+.rec{
+    background: red;
+    height: 200px;
+}
+.rec ul{
+    min-width: 1090px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ 
+
+
+
+
+
